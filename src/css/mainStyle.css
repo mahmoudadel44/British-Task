@@ -1,0 +1,402 @@
+/* start navbar style */
+.navbar {
+padding: 10px 20px;}
+
+.navbar .right-side a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #656363;
+    margin-right: 35px;
+}
+.navbar .right-side a:hover{
+    background-color: #FF0000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+.navbar .right-side li:last-child{
+    background-color: #FF0000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.navbar .right-side .dropdown-toggle{
+    margin-right: 10px;
+}
+.navbar .right-side i{
+margin-right: 0 !important;
+}
+.navbar .nav-link {
+    display: inline;
+}
+
+.navbar .dropdown-menu{
+    background-color: #00054B;
+    top: 150%;
+    left: -327px;
+    border: 1px solid gray;
+
+}
+.navbar .dropdown-menu i{
+    float: right;
+}
+
+.navbar .dropdown-menu a{
+    color: #fff;
+    font-weight: normal;
+}
+/* end navbar style */
+
+
+
+/* start navbar style */
+/* .navbar {background-color: #fff;}
+.navbar .links {display: flex;}
+.navbar ul li img {border-radius: 5px;}
+.navbar ul li a {color:#333;}
+.navbar .navbar-nav .dropdown a {color:#333;} */
+/* .navbar .navbar-nav .dropdown a :hover{color:#F00;text-decoration: underline;} */
+/* .navbar .navbar-nav .dropdown .btn :hover,.navbar .navbar-nav .dropdown .btn :focus
+{background-color:#BD2130;
+border-radius: 5px;
+padding:5px;
+color:'#fff'
+}
+.apply:hover,.apply:focus{
+    background-color: grey;
+}
+.applyIcon:hover,.applyIcon:focus{
+  color: #333;
+} */
+/* end navbar style */
+
+/* start header style */
+.slick-prev {
+    left: 20px !important;
+    background-color: transparent ;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+    border: 1px solid #ccc !important;
+    z-index:999;
+}
+/* end header style */
+.slick-next {
+    right: 20px !important;
+    background-color: transparent;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 50% !important;
+    z-index: 9999;
+    border: 1px solid #ccc !important;
+
+}
+.slick-next:hover,.slick-prev:hover{
+    background-color: red !important;
+    border:none !important;
+    transition:  all 0.3s ease-in-out;
+}
+.slick-prev:before, .slick-next:after{
+    color:#fff ! important
+}
+.slick-prev:before:hover, .slick-next:after:hover{
+    color:#fff ! important
+}
+/*start guideance section Styles */
+
+.guideance{
+    opacity: 0.9;
+    background: url("../images/help.jpg");
+    padding-top: 80px;
+    padding-bottom: 80px;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center; 
+    box-shadow: 7px 2px 20px 5px #888888;}
+
+.guideance .guidanceHeader{
+text-transform: uppercase;
+color:#fff;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+.guideance .btnGuide{
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding:10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.guideance .btnGuide:hover{
+    background-color: #142F70 !important;
+    border:none;
+}
+/*end guideance section Styles */
+
+/*start features section Styles */
+.feat-box a{
+    text-decoration: none;
+}
+.feat-box {
+    padding-top: 30px;
+    align-items: center;
+}
+.feat-box .iconStyle{
+    height:70px;
+    width:70px;
+    border-radius:35px;
+    background-color: #c3d7d9;
+}
+.feat-box .iconStyle:hover{
+    background-color: red;
+}
+.feat-box p{
+    font-size: 18px;
+}
+.feat-box h5{
+  letter-spacing: -1.3;
+  font-weight: bold;
+  margin-bottom: 6px;
+    }
+/*end features section Styles */
+
+/* start plans  section style */
+.plansCard a{
+    text-decoration: none;
+}
+.plansheader{
+    padding:8px 5px 5px 8px;
+    background-color:#081D39;
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .plansCard,.activitiesCard {
+      margin-bottom: 15px;
+    }
+  }
+.plansCard:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 3px solid #fff;
+}
+
+/* start activities Style */
+.activitiesheader{
+    padding:8px 5px 5px 8px;
+    background-color:#081D39;
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0F037C;
+  }
+  
+  .activitiesCard1:hover .overlay,.activitiesCard2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .headerCard1,.headerCard2 {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .textCard {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @media (min-width: 600px) and (max-width: 1000px)  {
+    .activitiesCard .myImage {
+        height: 117px !important;
+    }
+    .headerCard1,.headerCard2{
+        width:125px;
+        font-size: 16px;
+        top: 40%;
+        left: 50%;
+    }
+    .textCard{
+    font-size: 8px;
+    left: 50%;
+    }
+  }
+
+  
+/* end activities Style */
+
+/* start posts Style */
+.posts a{
+    text-decoration: none;
+}
+.posts .postsheader{
+    color:#D25A49
+}
+.posts h6{
+ color:#6595C3;
+}
+.posts span{
+    font-size: 12px;
+    color:#6595C3;
+letter-spacing: 0px;
+font-weight: bold;
+}
+@media (min-width: 600px) and (max-width: 1000px)  {
+    .allPosts .postImage{
+     height: 173px !important;
+    }
+}
+
+/* end posts style */
+
+/* start university Style */
+.londonUniversity{
+    text-align: right;
+    display: block;
+    opacity: .8;
+}
+
+@media (max-width: 1000px)  {
+    .londonUniversity{
+        margin-right: 115px;
+    margin-bottom: 15px;
+    }
+}
+.londonUniversity img ,.QueenUniversity img{
+    width: 240px;
+    height: 55px;
+    color:#3A4A61
+}
+.londonUniversity ,.QueenUniversity{
+    color:'#3A4A61'
+}
+/* end university style */
+
+/* start contact us style */
+
+.fab {
+    padding: 6px;
+    font-size: 20px;
+    width: 33px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px;
+    border-radius: 3px;
+  }
+  
+
+  .fa-facebook-f {
+    background: #081D39;
+    color: #3B5998;
+  }
+  .fa-facebook-f:hover {
+    background: #3B5998;
+    color: #fff;
+  }
+  .fa-youtube{
+    background: #081D39;
+color:#FF0000
+  }
+  .fa-youtube:hover{
+    background: #FF0000;
+color:#fff
+  }
+  .fa-twitter{
+      background-color:#081D39 ;
+      color:#55ACEE
+  }
+  .fa-twitter:hover{
+    background-color:#55ACEE ;
+    color:#fff
+}
+.fa-instagram {
+    background: #081D39;
+    color: #6F7175;
+  }
+  .fa-instagram:hover {
+    background-color: #125688;
+    color: white;
+  }
+  .contact ul li{
+    font-size: 16px;
+    font-weight: bold;
+    color: #A9A9A9;
+}
+.social{
+color:#A9A9A9;
+font-size: 12px;
+}
+.contact ul li i,.links i{
+    color:#CCC;
+}
+
+.contactHeader{
+    color: #787874 ;
+}
+.socialStyle{
+display: inline;
+}
+.links{
+    display: block;
+    color: #B1B1B1
+}
+/* end contact us style  */
+/* start footer style */
+.footer a{
+    text-decoration: none;
+    color:#B1B1B1;
+    margin-right: 25px;
+}       
+.footer{
+    margin-bottom: 100px;
+}     
+/* start scroll up */
+#scroll-top{
+    width: 40px;
+    height: 40px;
+    background-color: #0E1D3F;
+    color:#fff;
+    text-align: center;
+    position: fixed;
+    right: 3px;
+    bottom: 110px;
+    cursor: pointer;
+    padding-top: 8px;
+    border-radius: 20px;
+    }
+    /* end scroll up */
+/* end footer style */
+
+/* start fixedFooter style */
+.fixedFooter{
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    height: 100px; 
+    background: #fff; 
+}
+/* end  fixedFooter style */
