@@ -6,7 +6,7 @@ const University = () => {
   return (
     <div>
       <div className="container">
-        <div className="row mt-3 mb-3 pt-5 pb-3" style={{ backgroundColor: '#F5F5F5' }}>
+        <div className="row mt-3 mb-3 pt-3 pb-3" style={{ backgroundColor: '#F5F5F5' }}>
           <div className="col-md-6 col-sm-12">
             <Link to="#">
               <div className="media londonUniversity">

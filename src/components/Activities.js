@@ -2,14 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Activities = () => {
   return (
-    <div className="allactivities pb-5">
+    <div className="allactivities pb-5 mt-3">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-sm-12 ">
             <div className="card activitiesCard">
               <div className="card-img-top">
                 <img src="https://www.bue.edu.eg/wp-content/uploads/2019/07/52602521_1991822284456724_4261850439563083776_o-1024x683.jpg"
-                  style={{ width: '100%', height: '180px' }}
                   className="myImage"
                   alt="myImage"
                 />

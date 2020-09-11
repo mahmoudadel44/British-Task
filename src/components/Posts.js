@@ -9,7 +9,7 @@ const Plans = () => {
     const Posts = [
         {
             postImage: <img src={RecentlyHappened} width={width}
-                style={{ border: '2px solid #3E597E', height: '235px' }}
+                style={{ border: '2px solid #3E597E', height: '280px' }}
                 className="postImage"
                 alt="myImage"
             />,
