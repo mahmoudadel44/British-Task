@@ -21,14 +21,18 @@ const Header = () => {
               backgroundPosition: 'center',/* Center the image */
               backgroundRepeat: 'no-repeat', /* Do not repeat the image */
               backgroundSize: 'cover'
-            }} />
+            }} 
+            alt="myImage"
+            />
           </div>
           <div>
             <img src={British} className="responsive" style={{
               backgroundPosition: 'center',/* Center the image */
               backgroundRepeat: 'no-repeat', /* Do not repeat the image */
               backgroundSize: 'cover'
-            }} />
+            }} 
+            alt="myImage"
+            />
           </div>
 
         </Slider>

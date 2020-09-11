@@ -11,14 +11,16 @@ const Plans = () => {
             postImage: <img src={RecentlyHappened} width={width}
                 style={{ border: '2px solid #3E597E', height: '235px' }}
                 className="postImage"
+                alt="myImage"
             />,
             header: 'Recently Happened',
-            title: 'Faculty of arts and design \"Now Open"',
+            title: 'Faculty of arts and design Now Open',
             paragraph: 'if you have the talent, The BUE Faculty of Arts and Design will guide you in more than one Direction'
         },
         {
             postImage: <img src={UpComing} width={width} height={height}
                 style={{ border: '2px solid #3E597E' }}
+                alt="myImage"
             />,
             header: 'UpComing',
             title: 'COVID-19 and Online Teaching:BUE\'s Staff Perspectives',

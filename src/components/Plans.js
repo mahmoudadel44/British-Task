@@ -9,19 +9,27 @@ const height = "auto"
 const Plans = () => {
   const plans = [
     {
-      planImage: <img src={openDays} width={width} height={height} />,
+      planImage: <img src={openDays} width={width} height={height} 
+      alt="myImage"
+      />,
       header: 'Open Days'
     },
     {
-      planImage: <img src={Admission} width={width} height={height} />,
+      planImage: <img src={Admission} width={width} height={height} 
+      alt="myImage"
+      />,
       header: 'Admission'
     },
     {
-      planImage: <img src={campusMap} width={width} height={height} />,
+      planImage: <img src={campusMap} width={width} height={height} 
+      alt="myImage"
+      />,
       header: 'Campus Map'
     },
     {
-      planImage: <img src={virtualTour} width={width} height={height} />,
+      planImage: <img src={virtualTour} width={width} height={height} 
+      alt="myImage"
+      />,
       header: 'Virtual Tour'
     },
   ]

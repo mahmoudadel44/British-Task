@@ -10,14 +10,14 @@ const University = () => {
           <div className="col-md-6 col-sm-12">
             <Link to="#">
               <div className="media londonUniversity">
-                <img src={LondonUniversity} alt="Generic placeholder image"
+                <img src={LondonUniversity} alt="Generic"
                 />
               </div>
             </Link>
           </div>
           <div className="col-md-6 col-sm-12 text-center QueenUniversity">
             <Link to="#">
-              <img src={QueenUniversity} alt="Generic placeholder image" />
+              <img src={QueenUniversity} alt="Generic" />
             </Link>
           </div>
         </div>

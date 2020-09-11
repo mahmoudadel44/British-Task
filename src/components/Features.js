@@ -11,20 +11,28 @@ const Features = () => {
     const features = [
         {
             header: 'Q & V',
-            icon: <img src={quality} style={{ width: width, height: height }} />,
+            icon: <img src={quality} style={{ width: width, height: height }} 
+            alt="myImage"
+            />,
             paragraph: 'Quality & Validation'
         },
         {
             header: 'Elearning',
-            icon: <img src={Elearning} style={{ width: width, height: height }} />,
+            icon: <img src={Elearning} style={{ width: width, height: height }} 
+            alt="myImage"
+            />,
             paragraph: 'Electronic Learning'
         }, {
             header: 'SRS',
-            icon: <img src={SRS} style={{ width: width, height: height }} />,
+            icon: <img src={SRS} style={{ width: width, height: height }} 
+            alt="myImage"
+            />,
             paragraph: 'Student Record System'
         }, {
             header: 'Library',
-            icon: <img src={Library} style={{ width: width, height: height }} />,
+            icon: <img src={Library} style={{ width: width, height: height }} 
+            alt="myImage"
+            />,
             paragraph: 'Bue Scientific Library'
         }
     ]
