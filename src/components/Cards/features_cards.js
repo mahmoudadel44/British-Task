@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 const features_cards = ({ features }) => {
   return (
     <div className="col-lg-3 col-sm-6">
