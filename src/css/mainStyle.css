@@ -1,8 +1,7 @@
 /* start navbar style */
-.navbar {
-padding: 10px 20px;}
+.navbar {padding: 10px 20px;}
 
-.navbar .right-side a{
+.navbar .right-side  a{
     font-size: 12px;
     font-weight: bold;
     color: #656363;
@@ -20,9 +19,6 @@ padding: 10px 20px;}
     border-radius: 10px;
     padding: 0 5px;
 }
-.navbar .right-side .dropdown-toggle{
-    margin-right: 10px;
-}
 .navbar .right-side i{
 margin-right: 0 !important;
 }
@@ -33,42 +29,44 @@ margin-right: 0 !important;
 .navbar .dropdown-menu{
     background-color: #00054B;
     top: 150%;
-    left: -327px;
+    left: -100px;
     border: 1px solid gray;
+    padding: 15px;
 
 }
+.nav-feat .dropdown-menu{
+    padding: 20px;
+}
+.navbar .dropdown-menu:last-child{
+        background-color: #00054B;
+        top: 150%;
+        left: -55px;
+        border: 1px solid gray;
+}
+
 .navbar .dropdown-menu i{
     float: right;
+    margin-top: 5px;
 }
 
-.navbar .dropdown-menu a{
+.navbar .dropdown-menu a  {
     color: #fff;
     font-weight: normal;
+    font-size: 14px;
 }
+
+.nav-feat .feat-head{
+    color: #fff;
+    font-weight: normal;
+    margin: 15px 20px;
+}
+.nav-feat a{
+    margin-bottom: 15px;
+}
+
+
 /* end navbar style */
 
-
-
-/* start navbar style */
-/* .navbar {background-color: #fff;}
-.navbar .links {display: flex;}
-.navbar ul li img {border-radius: 5px;}
-.navbar ul li a {color:#333;}
-.navbar .navbar-nav .dropdown a {color:#333;} */
-/* .navbar .navbar-nav .dropdown a :hover{color:#F00;text-decoration: underline;} */
-/* .navbar .navbar-nav .dropdown .btn :hover,.navbar .navbar-nav .dropdown .btn :focus
-{background-color:#BD2130;
-border-radius: 5px;
-padding:5px;
-color:'#fff'
-}
-.apply:hover,.apply:focus{
-    background-color: grey;
-}
-.applyIcon:hover,.applyIcon:focus{
-  color: #333;
-} */
-/* end navbar style */
 
 /* start header style */
 .slick-prev {
@@ -102,11 +100,15 @@ color:'#fff'
 .slick-prev:before:hover, .slick-next:after:hover{
     color:#fff ! important
 }
+
+.slick-slide img{
+    width: 100%;
+}
 /*start guideance section Styles */
 
 .guideance{
     opacity: 0.9;
-    background: url("../images/help.jpg");
+    background-image: url("../images/help.jpg");
     padding-top: 80px;
     padding-bottom: 80px;
     -webkit-background-size:cover;
@@ -114,9 +116,8 @@ color:'#fff'
     -o-background-size:cover;
     background-size:cover;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: center; 
-    box-shadow: 7px 2px 20px 5px #888888;}
+    box-shadow: 7px 2px 20px 5px #888888;
+}
 
 .guideance .guidanceHeader{
 text-transform: uppercase;
