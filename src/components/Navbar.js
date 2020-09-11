@@ -3,27 +3,21 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
   const address = "https://www.bue.edu.eg/wp-content/uploads/2018/07/BUE-logo.png"
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light"
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top"
       style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}
     >
-
       <img src={address} style={{ height: '40px', width: '100px' }}
             alt="myImage"
       />
-
       <div className="right-side">
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-
           <ul className="navbar-nav">
-
             <li><Link className="navbar-brand" href="#">Home</Link></li>
 
             <li className="nav-item dropdown">
               <Link className="nav-link" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About</Link>
-
               <div className="nav-feat dropdown-menu ">
-
                 <div>
                   <h6 className="feat-head">The University</h6>
                   <Link className="dropdown-item" href="#">LeaderShip And Structure</Link>
@@ -38,10 +32,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item dropdown">
               <Link className="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Study & BUE          </Link>
-
+                Study & BUE          
+                </Link>
               <div className="nav-feat dropdown-menu ">
-
                 <div>
                   <h6 className="feat-head">The University</h6>
                   <Link className="dropdown-item" href="#">LeaderShip And Structure</Link>
@@ -70,7 +63,6 @@ const Navbar = () => {
                 </div>
 
               </div>
-
             </li>
             <li className="nav-item dropdown">
               <Link className="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -86,7 +78,6 @@ const Navbar = () => {
                   <Link className="dropdown-item" href="#">History<i class="fas fa-chevron-right"></i></Link>
                   <Link className="dropdown-item" href="#">Alumni<i class="fas fa-chevron-right"></i></Link>
                 </div>
-
               
               </div>
 
